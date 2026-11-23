@@ -1,0 +1,1015 @@
+[
+  {
+    "case_number": 1,
+    "title": "Buyer Looking for Product Supplier (RFQ Product)",
+    "inquiry_type": "RFQ_PRODUCT",
+    "initiator": {
+      "username": "sanjanamaahi",
+      "company": "InfraTech EPC Solutions Ltd"
+    },
+    "target": {
+      "username": "maahi",
+      "company": "Maahi Decarb Materials Pvt Ltd"
+    },
+    "context": "An EPC contractor (InfraTech EPC Solutions Ltd) requires 1,000 MT of certified Limestone Calcined Clay Cement (LC3) for upcoming green infrastructure projects in Pune.",
+    "what_is_testing": "Tests standard physical product procurement RFQ, declared plant run-rate capacity validation (2,500 MT/mo), Ex Works price quotation disclosure (\u20b94,900 - \u20b95,100/MT), Mill Test Certificate (MTC) assurance, and smooth 5th-turn executive handover.",
+    "business_context": {
+      "inquiry_type": "RFQ_PRODUCT",
+      "product_name": "Limestone Calcined Clay Cement (LC3)",
+      "product_code": "CALCINED_CLAY_LC3",
+      "grade_code": "LC3_50_STANDARD",
+      "quantity": 1000.0,
+      "unit": "METRIC_TONNE",
+      "delivery_location": "Pune",
+      "timeline_days": 30,
+      "urgency": "PLANNED",
+      "is_budget_public": false,
+      "inquiry_notes": "Exploring supply availability and batch test certification for commercial infrastructure project."
+    },
+    "conversation_id": "584325b1-0874-44b9-a477-7bd2a782c7c4",
+    "total_turns": 10,
+    "transcript": [
+      {
+        "turn_index": 0,
+        "turn_label": "Turn #1",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:31:58.950601Z",
+        "content": "Hello Maahi Sharma, I am representing Mahajan Sanjana (InfraTech EPC Solutions Ltd). we have submitted a formal procurement inquiry for 1,000 METRIC TONNE of Limestone Calcined Clay Cement (LC3) for delivery to Pune within 30 days. Project requirement notes: 'Exploring supply availability and batch test certification for commercial infrastructure project.'. Could your virtual representative confirm production run-rate capacity, dispatch lead times, and current indicative pricing?"
+      },
+      {
+        "turn_index": 1,
+        "turn_label": "Turn #2",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:32:05.046855Z",
+        "content": "Hello Mahajan Sanjana, representing Maahi Sharma at Maahi Decarb Materials Pvt Ltd. we confirm commercial capability for Limestone Calcined Clay Cement (LC3). Our declared production capacity is 2,500 METRIC TONNE / month with delivery coverage across Pune, Mumbai, Nashik. Dispatch lead time is approximately 5 days from order confirmation. Uncommitted allocation is unrecorded and will be verified directly by our dispatch team. Our current indicative price range is \u20b94,900 - \u20b95,100 / METRIC TONNE (Ex Works)."
+      },
+      {
+        "turn_index": 2,
+        "turn_label": "Turn #3",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:32:11.133937Z",
+        "content": "Thank you for confirming capacity and operational scope. To align with our project specifications, could you confirm test certificate availability (such as batch test reports or standard laboratory compliance) and packaging options (bulk pneumatic tanker vs standard packaging)? Also, please clarify whether quotation terms operate Ex-Works or delivered to site in Pune."
+      },
+      {
+        "turn_index": 3,
+        "turn_label": "Turn #4",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:32:17.215106Z",
+        "content": "Regarding quality and terms: We provide standard manufacturer test certificates (MTC) and batch compliance reports with every dispatch. We support pneumatic bulker tanker dispatches as well as standard packaging. Commercial pricing basis is typically confirmed on an Ex-Works basis with carrier freight transit coordinated directly to Pune. Dispatch schedules can be scheduled in phases to meet your 30-day timeline."
+      },
+      {
+        "turn_index": 4,
+        "turn_label": "Turn #5",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:32:23.312920Z",
+        "content": "Regarding operational delivery logistics to Pune: Could you confirm whether the 1,000 METRIC TONNE can be dispatched in scheduled milestone lots (e.g. initial pilot batch followed by regular dispatches)? Additionally, are there specific site unloading requirements or turnaround SLAs for transport carriers?"
+      },
+      {
+        "turn_index": 5,
+        "turn_label": "Turn #6",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:32:29.398682Z",
+        "content": "We fully accommodate phased milestone deliveries. An initial pilot dispatch can be mobilized within 5 days to validate site unloading and QA compliance in Pune, followed by regular dispatch cycles. Our transport carriers adhere to standard 3-hour unloading SLAs to avoid site demurrage."
+      },
+      {
+        "turn_index": 6,
+        "turn_label": "Turn #7",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:32:35.474242Z",
+        "content": "Thank you for confirming phased dispatch flexibility and unloading SLAs. To prepare our finance and compliance teams, please confirm standard commercial payment terms\u2014specifically milestone billing structures (advance vs dispatch/receipt terms) and GST e-invoicing compliance."
+      },
+      {
+        "turn_index": 7,
+        "turn_label": "Turn #8",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:32:41.571119Z",
+        "content": "Our standard commercial terms operate on structured milestone billing (advance booking against milestone dispatch or verified commercial LC) with full GST e-invoicing and statutory batch documentation accompanying each consignment. Standard quality warranties and immediate replacement SLAs apply for any batch discrepancies."
+      },
+      {
+        "turn_index": 8,
+        "turn_label": "Turn #9",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:32:47.669056Z",
+        "content": "The technical specifications, pilot rollout schedule, and commercial terms are aligned with our project requirements for Pune. We are ready to formalize this into a structured commercial proposal."
+      },
+      {
+        "turn_index": 9,
+        "turn_label": "Turn #10",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:32:53.756401Z",
+        "content": "Commercial RFQ dialogue complete: 1,000 METRIC TONNE of Limestone Calcined Clay Cement (LC3) for delivery to Pune within 30 days. Supplier run-rate capacity (2,500 METRIC TONNE / month) and lead time (5 days) verified. I will now hand over this channel directly to Maahi Sharma and Mahajan Sanjana to finalize commercial contract terms, purchase orders, and delivery paperwork. Delegates can formalize next steps at any time using the Draft Proposal tab. Best regards!"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "case_number": 2,
+    "title": "Buyer Looking for Service Vendor (RFI Service)",
+    "inquiry_type": "RFI_SERVICE",
+    "initiator": {
+      "username": "sanjanamaahi",
+      "company": "InfraTech EPC Solutions Ltd"
+    },
+    "target": {
+      "username": "aarav",
+      "company": "Western Logistics & Heavy Haulage Fleet"
+    },
+    "context": "An infrastructure builder needs dedicated bulk pneumatic bulker tankers and heavy haulage transport for dispatching cement across Mumbai and Pune terminals.",
+    "what_is_testing": "Tests service procurement RFI, dedicated fleet operational capacity, GPS-monitored fleet readiness, freight pricing structure, and logistics SLA parameters.",
+    "business_context": {
+      "inquiry_type": "RFI_SERVICE",
+      "product_name": "Bulk Construction Material Transport & Fleet",
+      "service_code": "CONSTRUCTION_LOGISTICS",
+      "quantity": 25.0,
+      "unit": "TRUCKLOAD",
+      "delivery_location": "Mumbai",
+      "timeline_days": 14,
+      "urgency": "IMMEDIATE",
+      "is_budget_public": false,
+      "inquiry_notes": "Need dedicated 30-ton pneumatic bulker trucks for continuous cement dispatch from Raigad to Pune."
+    },
+    "conversation_id": "bcd5a123-01e2-46a0-8d35-448831b40fea",
+    "total_turns": 10,
+    "transcript": [
+      {
+        "turn_index": 0,
+        "turn_label": "Turn #1",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:33:00.856743Z",
+        "content": "Hello Aarav Mehra, I am representing Mahajan Sanjana (InfraTech EPC Solutions Ltd). we have submitted an industrial service requirement for Bulk Construction Material Transport & Fleet (25 TRUCKLOAD) serving Mumbai with an execution timeline of 14 days. Project requirement notes: 'Need dedicated 30-ton pneumatic bulker trucks for continuous cement dispatch from Raigad to Pune.'. Could your representative confirm fleet/crew availability, service coverage, and standard mobilization lead time?"
+      },
+      {
+        "turn_index": 1,
+        "turn_label": "Turn #2",
+        "speaker": "Western Logistics & Heavy Haulage Fleet's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:33:06.943076Z",
+        "content": "Hello Mahajan Sanjana, representing Aarav Mehra at Western Logistics & Heavy Haulage Fleet. we confirm specialized service capability for Bulk Construction Material Transport & Fleet. Our declared operating capacity is 50 TRUCKLOAD / month across Pune, Mumbai, Nashik, with standard mobilization readiness within 3 days. Standard quality test certificates and technical compliance reports are provided per purchase specification. Indicative commercial pricing is available upon direct commercial request with our sales desk once batch specifications are reviewed."
+      },
+      {
+        "turn_index": 2,
+        "turn_label": "Turn #3",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:33:13.030915Z",
+        "content": "Thank you for confirming mobilization capabilities. To prepare our vendor onboarding, could you clarify vehicle/equipment technical specifications, operator qualifications, and your SLA commitments for turnaround time and site uptime in Mumbai?"
+      },
+      {
+        "turn_index": 3,
+        "turn_label": "Turn #4",
+        "speaker": "Western Logistics & Heavy Haulage Fleet's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:33:19.126630Z",
+        "content": "Our fleet and equipment follow scheduled preventive maintenance, dedicated GPS tracking, and certified operators meeting statutory safety protocols. Transit turnaround times and dedicated backup units can be committed under a project-specific Service Level Agreement (SLA). Mobilization can commence within 3 days upon contract signing."
+      },
+      {
+        "turn_index": 4,
+        "turn_label": "Turn #5",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:33:25.218265Z",
+        "content": "Regarding deployment logistics in Mumbai: Can mobilization be staged in phases (e.g., initial survey & equipment positioning followed by full crew deployment)? Also, please confirm emergency backup equipment availability to ensure zero site downtime."
+      },
+      {
+        "turn_index": 5,
+        "turn_label": "Turn #6",
+        "speaker": "Western Logistics & Heavy Haulage Fleet's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:33:31.306407Z",
+        "content": "Yes, we offer phased mobilization starting with site survey within 3 days. Dedicated standby backup equipment and certified secondary crew are maintained on standby within our coverage area to guarantee 99%+ operational uptime."
+      },
+      {
+        "turn_index": 6,
+        "turn_label": "Turn #7",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:33:37.400371Z",
+        "content": "That satisfies our operational continuity guidelines. Could you also confirm standard milestone billing structures, rate card validity, and safety audit reporting frequency?"
+      },
+      {
+        "turn_index": 7,
+        "turn_label": "Turn #8",
+        "speaker": "Western Logistics & Heavy Haulage Fleet's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:33:43.507552Z",
+        "content": "Our billing is tied to verified milestone sign-offs or monthly operational timesheets with full statutory compliance. Daily EHS safety logs and weekly equipment health reports are provided as standard."
+      },
+      {
+        "turn_index": 8,
+        "turn_label": "Turn #9",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:33:49.608099Z",
+        "content": "The operational scope, uptime guarantees, and safety compliance meet our vendor onboarding criteria for Mumbai. We are ready to proceed to formal engagement."
+      },
+      {
+        "turn_index": 9,
+        "turn_label": "Turn #10",
+        "speaker": "Western Logistics & Heavy Haulage Fleet's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:33:55.711351Z",
+        "content": "Industrial service alignment complete for Bulk Construction Material Transport & Fleet serving Mumbai. Service coverage, operating capacity (50 TRUCKLOAD / month), and mobilization lead time (3 days) verified. I will now hand over this conversation directly to Aarav Mehra and Mahajan Sanjana to execute the formal Statement of Work (SOW), commercial rate card, and operational schedule. Delegates can formalize next steps using the Draft Proposal tab. Best regards!"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "case_number": 3,
+    "title": "Supplier Prospecting for Buyers (Supplier Pitch)",
+    "inquiry_type": "SUPPLIER_PROSPECTING",
+    "initiator": {
+      "username": "vikram",
+      "company": "Deccan Clinker & Mineral Feedstocks Ltd"
+    },
+    "target": {
+      "username": "sanjanamaahi",
+      "company": "InfraTech EPC Solutions Ltd"
+    },
+    "context": "An upstream clinker and mineral producer (Deccan Clinker & Mineral Feedstocks Ltd) has 4,950 MT of uncommitted production capacity and actively pitches to EPC contractors.",
+    "what_is_testing": "Tests proactive supplier prospecting, uncommitted inventory allocation check, ISO 9001 and IS 16415 accreditation sharing, and direct sales handover.",
+    "business_context": {
+      "inquiry_type": "SUPPLIER_PROSPECTING",
+      "product_name": "High-Grade Cement Clinker & Mineral Feedstock",
+      "product_code": "CEMENT_CLINKER",
+      "quantity": 2000.0,
+      "unit": "METRIC_TONNE",
+      "delivery_location": "Pune",
+      "timeline_days": 30,
+      "urgency": "PLANNED",
+      "is_budget_public": false,
+      "inquiry_notes": "Proactively offering certified clinker feedstocks with immediate dispatch readiness from our Pune plant."
+    },
+    "conversation_id": "9f14e6f7-35e8-4851-aaf5-fa6eff6714e0",
+    "total_turns": 10,
+    "transcript": [
+      {
+        "turn_index": 0,
+        "turn_label": "Turn #1",
+        "speaker": "Deccan Clinker & Mineral Feedstocks Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:34:03.139939Z",
+        "content": "Hello Mahajan Sanjana, I am representing Vikram Singhania (Deccan Clinker & Mineral Feedstocks Ltd). we noted your active procurement demand for 2,000 METRIC TONNE of High-Grade Cement Clinker & Mineral Feedstock for delivery to Pune within 30 days. Project requirement notes: 'Proactively offering certified clinker feedstocks with immediate dispatch readiness from our Pune plant.'. We would like to present our supply capability and confirm our declared production run-rate capacity (5,000 METRIC TONNE / month) and dispatch lead time (7 days). Our current indicative price range is \u20b93,200 - \u20b93,399 / METRIC TONNE (Ex Works)."
+      },
+      {
+        "turn_index": 1,
+        "turn_label": "Turn #2",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:34:09.225570Z",
+        "content": "Hello Vikram Singhania, representing Mahajan Sanjana at InfraTech EPC Solutions Ltd. thank you for reaching out regarding our procurement requirement for High-Grade Cement Clinker & Mineral Feedstock. We are actively evaluating qualified suppliers for our Pune project. Could your representative clarify test certificate compliance (such as MTC or NABL reports), packaging options (bulk pneumatic tankers vs standard), and delivery terms?"
+      },
+      {
+        "turn_index": 2,
+        "turn_label": "Turn #3",
+        "speaker": "Deccan Clinker & Mineral Feedstocks Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:34:15.320308Z",
+        "content": "Regarding technical compliance and logistics: We provide standard manufacturer test certificates (MTC) and batch compliance reports with every dispatch. Declared quality and safety accreditations include: IS 16415, ISO 9001:2015, NABL Lab Certified. We support pneumatic bulker tanker dispatches as well as standard packaging. Commercial terms operate on an Ex-Works basis with freight transit coordinated directly to Pune. Currently operating with approximately 4,950 METRIC TONNE / month uncommitted run-rate allocation."
+      },
+      {
+        "turn_index": 3,
+        "turn_label": "Turn #4",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:34:21.431191Z",
+        "content": "Thank you for confirming quality standards and tanker logistics. The 7 days dispatch window aligns with our scheduled project milestones in Pune. We would welcome moving to formal commercial negotiation."
+      },
+      {
+        "turn_index": 4,
+        "turn_label": "Turn #5",
+        "speaker": "Deccan Clinker & Mineral Feedstocks Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:34:27.524969Z",
+        "content": "Regarding delivery logistics to Pune: We can structure the 2,000 METRIC TONNE consignment into staged batches to match your project milestones, commencing with a priority pilot dispatch. Our carriers adhere to strict site delivery turnaround SLAs."
+      },
+      {
+        "turn_index": 5,
+        "turn_label": "Turn #6",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:34:33.623703Z",
+        "content": "A staged batch structure aligns well with our site unloading capacity in Pune. Could you also confirm standard payment milestone terms and GST compliance protocols for vendor onboarding?"
+      },
+      {
+        "turn_index": 6,
+        "turn_label": "Turn #7",
+        "speaker": "Deccan Clinker & Mineral Feedstocks Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:34:39.715922Z",
+        "content": "We support standard corporate milestone billing with full GST e-invoice documentation and NABL/MTC test certificates delivered with each consignment. Standard warranty and replacement guarantees apply."
+      },
+      {
+        "turn_index": 7,
+        "turn_label": "Turn #8",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:34:45.817296Z",
+        "content": "Thank you for confirming commercial billing and warranty terms. Our procurement criteria and technical requirements are satisfied."
+      },
+      {
+        "turn_index": 8,
+        "turn_label": "Turn #9",
+        "speaker": "Deccan Clinker & Mineral Feedstocks Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:34:51.920590Z",
+        "content": "We are glad to have commercial alignment on volume, quality compliance, and delivery schedules for Pune. We are prepared to proceed to formal contract terms."
+      },
+      {
+        "turn_index": 9,
+        "turn_label": "Turn #10",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:34:58.015240Z",
+        "content": "Supplier proposal alignment complete: 2,000 METRIC TONNE of High-Grade Cement Clinker & Mineral Feedstock for delivery to Pune. Production capacity (5,000 METRIC TONNE / month) and quality compliance confirmed. Handing over this channel directly to Mahajan Sanjana and Vikram Singhania to finalize commercial contract terms, pricing schedules, and purchase orders. Delegates can formalize next steps using the Draft Proposal tab. Best regards!"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "case_number": 4,
+    "title": "Vendor Pitching Service to Potential Customers (Vendor Pitch)",
+    "inquiry_type": "VENDOR_PITCH",
+    "initiator": {
+      "username": "aarav",
+      "company": "Western Logistics & Heavy Haulage Fleet"
+    },
+    "target": {
+      "username": "sanjanamaahi",
+      "company": "InfraTech EPC Solutions Ltd"
+    },
+    "context": "A heavy equipment rental vendor (Western Logistics & Heavy Haulage Fleet) pitches 50-ton mobile hydraulic crawler cranes to an EPC firm with upcoming structural lift packages.",
+    "what_is_testing": "Tests proactive vendor service pitching, equipment availability verification, crane load-chart and third-party certified inspection records, and mobilized deployment terms.",
+    "business_context": {
+      "inquiry_type": "VENDOR_PITCH",
+      "product_name": "50-Ton Crawler & Mobile Hydraulic Crane Rental",
+      "service_code": "PLANT_MAINTENANCE",
+      "quantity": 10.0,
+      "unit": "TRUCKLOAD",
+      "delivery_location": "Mumbai",
+      "timeline_days": 21,
+      "urgency": "PLANNED",
+      "is_budget_public": false,
+      "inquiry_notes": "Pitching heavy lifting equipment rental packages with certified operators and third-party safety audits."
+    },
+    "conversation_id": "40f04e2b-18c6-4d35-8cce-3b389124e847",
+    "total_turns": 10,
+    "transcript": [
+      {
+        "turn_index": 0,
+        "turn_label": "Turn #1",
+        "speaker": "Western Logistics & Heavy Haulage Fleet's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:35:04.147839Z",
+        "content": "Hello Mahajan Sanjana, I am representing Aarav Mehra (Western Logistics & Heavy Haulage Fleet). we noted your industrial service requirement for 50-Ton Crawler & Mobile Hydraulic Crane Rental (10 TRUCKLOAD) serving Mumbai with an execution timeline of 21 days. Project requirement notes: 'Pitching heavy lifting equipment rental packages with certified operators and third-party safety audits.'. We would like to present our specialized fleet and operational capability with operating capacity of 50 TRUCKLOAD / month and mobilization readiness within 3 days. Indicative commercial pricing is available upon direct commercial request with our sales desk once batch specifications are reviewed."
+      },
+      {
+        "turn_index": 1,
+        "turn_label": "Turn #2",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:35:10.226317Z",
+        "content": "Hello Aarav Mehra, representing Mahajan Sanjana at InfraTech EPC Solutions Ltd. thank you for reaching out regarding our service requirement for 50-Ton Crawler & Mobile Hydraulic Crane Rental. We require reliable operational turnaround in Mumbai. Could your representative clarify fleet technical specs, safety accreditations, and SLA uptime commitments?"
+      },
+      {
+        "turn_index": 2,
+        "turn_label": "Turn #3",
+        "speaker": "Western Logistics & Heavy Haulage Fleet's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:35:16.311539Z",
+        "content": "Our fleet follows scheduled preventive maintenance, dedicated GPS tracking, and certified operators meeting statutory safety protocols. Standard quality test certificates and technical compliance reports are provided per purchase specification. Turnaround SLAs and dedicated backup equipment can be committed under a project agreement."
+      },
+      {
+        "turn_index": 3,
+        "turn_label": "Turn #4",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:35:22.419387Z",
+        "content": "That satisfies our contractor compliance criteria. The 3 days mobilization timeline meets our 21-day execution window for Mumbai. We are ready to review the Statement of Work."
+      },
+      {
+        "turn_index": 4,
+        "turn_label": "Turn #5",
+        "speaker": "Western Logistics & Heavy Haulage Fleet's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:35:28.511833Z",
+        "content": "Regarding deployment staging in Mumbai: We can mobilize an advance positioning unit within 3 days to complete site lift surveys and ground safety clearances, followed by full fleet deployment."
+      },
+      {
+        "turn_index": 5,
+        "turn_label": "Turn #6",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:35:34.599041Z",
+        "content": "Advance site surveying will help ensure zero staging delays. Could your commercial team clarify standby hourly rate structures, minimum billing blocks, and fuel/operator inclusion terms?"
+      },
+      {
+        "turn_index": 6,
+        "turn_label": "Turn #7",
+        "speaker": "Western Logistics & Heavy Haulage Fleet's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:35:40.684305Z",
+        "content": "Our commercial rate packages are all-inclusive of certified crane operators, standard rigging crews, third-party inspection certifications, and insurance coverage. Minimum shift blocks are structured per agreed project milestones."
+      },
+      {
+        "turn_index": 7,
+        "turn_label": "Turn #8",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:35:46.779749Z",
+        "content": "Thank you for clarifying operational inclusions and certified rigging support. The billing terms align with our sub-contractor onboarding frameworks for Mumbai."
+      },
+      {
+        "turn_index": 8,
+        "turn_label": "Turn #9",
+        "speaker": "Western Logistics & Heavy Haulage Fleet's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:35:52.877751Z",
+        "content": "Commercial rate cards, standby emergency units, and mobilization schedules for Mumbai are verified. We are prepared to formalize the Statement of Work."
+      },
+      {
+        "turn_index": 9,
+        "turn_label": "Turn #10",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:35:58.967163Z",
+        "content": "Vendor service pitch alignment complete for 50-Ton Crawler & Mobile Hydraulic Crane Rental serving Mumbai. Operating capacity (50 TRUCKLOAD / month) and mobilization lead time (3 days) confirmed. Handing over this conversation directly to Mahajan Sanjana and Aarav Mehra to finalize the Statement of Work (SOW), rate card, and operational schedule. Delegates can formalize next steps using the Draft Proposal tab. Best regards!"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "case_number": 5,
+    "title": "Buyer Seeking Alternative / Substitute Material (Substitute Discovery)",
+    "inquiry_type": "ALTERNATIVE_SOURCING",
+    "initiator": {
+      "username": "sanjanamaahi",
+      "company": "InfraTech EPC Solutions Ltd"
+    },
+    "target": {
+      "username": "maahi",
+      "company": "Maahi Decarb Materials Pvt Ltd"
+    },
+    "context": "A project manager seeks an approved low-carbon substitute for Ordinary Portland Cement (OPC 53) to meet decarbonization guidelines on an urban infrastructure corridor.",
+    "what_is_testing": "Tests alternative sourcing workflow, environmental carbon-reduction verification (~40% embodied CO2 reduction), technical performance parity to OPC, and comparative trial data exchange.",
+    "business_context": {
+      "inquiry_type": "ALTERNATIVE_SOURCING",
+      "product_name": "Limestone Calcined Clay Cement (LC3)",
+      "product_code": "CALCINED_CLAY_LC3",
+      "grade_code": "LC3_50_STANDARD",
+      "quantity": 1200.0,
+      "unit": "METRIC_TONNE",
+      "delivery_location": "Pune",
+      "timeline_days": 45,
+      "urgency": "PLANNED",
+      "is_budget_public": false,
+      "inquiry_notes": "Seeking low-carbon sustainable cement as an alternative to OPC 53 for green building compliance."
+    },
+    "conversation_id": "6273d3a9-c6a7-4557-80ed-380336a51d0e",
+    "total_turns": 10,
+    "transcript": [
+      {
+        "turn_index": 0,
+        "turn_label": "Turn #1",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:36:08.267672Z",
+        "content": "Hello Maahi Sharma, I am representing Mahajan Sanjana (InfraTech EPC Solutions Ltd). we are conducting a strategic benchmarking and secondary supplier qualification for 1,200 METRIC TONNE of Limestone Calcined Clay Cement (LC3) serving Pune. Project requirement notes: 'Seeking low-carbon sustainable cement as an alternative to OPC 53 for green building compliance.'. We noted your offering of Limestone Calcined Clay Cement (LC3). Could your representative share technical specifications, grade equivalence, and trial batch parameters?"
+      },
+      {
+        "turn_index": 1,
+        "turn_label": "Turn #2",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:36:14.350883Z",
+        "content": "Hello Mahajan Sanjana, representing Maahi Sharma at Maahi Decarb Materials Pvt Ltd. we welcome alternative sourcing qualification for Limestone Calcined Clay Cement (LC3). Our declared production capacity is 2,500 METRIC TONNE / month across Pune, Mumbai, Nashik, providing high-performance industrial equivalence. We provide standard manufacturer test certificates (MTC) and batch compliance reports with every dispatch. Our current indicative price range is \u20b94,900 - \u20b95,100 / METRIC TONNE (Ex Works)."
+      },
+      {
+        "turn_index": 2,
+        "turn_label": "Turn #3",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:36:20.454893Z",
+        "content": "Thank you for sharing your alternative technical capabilities. To initiate our qualification trial, could you confirm minimum order quantities (MOQ) for trial batches, sample dispatch lead times (5 days), and required laboratory test certs for Pune site approval?"
+      },
+      {
+        "turn_index": 3,
+        "turn_label": "Turn #4",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:36:26.554576Z",
+        "content": "Sample testing batches can be dispatched within 5 days along with complete Technical Data Sheets (TDS), manufacturer test certificates (MTC), and batch compliance reports. We support phased trial testing runs to validate performance compliance before scaling to full commercial run-rates."
+      },
+      {
+        "turn_index": 4,
+        "turn_label": "Turn #5",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:36:32.651968Z",
+        "content": "Regarding trial batch evaluation in Pune: Could your technical team confirm concrete strength gain benchmarks at 7, 28, and 56 days compared to standard OPC grades, and provide third-party NABL laboratory test results?"
+      },
+      {
+        "turn_index": 5,
+        "turn_label": "Turn #6",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:36:38.743045Z",
+        "content": "Our trial batch test reports demonstrate compressive strength parity matching 53-grade performance by 28 days with superior long-term durability and ~40% embodied carbon reduction. Full NABL accredited test reports are packaged with trial consignments."
+      },
+      {
+        "turn_index": 6,
+        "turn_label": "Turn #7",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:36:44.834647Z",
+        "content": "That environmental performance and strength parity align directly with our green procurement mandates. Please confirm commercial pricing structures for scaled off-take following successful trial batch sign-off."
+      },
+      {
+        "turn_index": 7,
+        "turn_label": "Turn #8",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:36:50.916899Z",
+        "content": "Upon successful trial batch qualification, commercial supply can be committed under long-term rate agreements with volume discount tiers (Our current indicative price range is \u20b94,900 - \u20b95,100 / METRIC TONNE (Ex Works).) and guaranteed monthly run-rate quotas."
+      },
+      {
+        "turn_index": 8,
+        "turn_label": "Turn #9",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:36:57.003854Z",
+        "content": "Technical data sheets, trial batch parameters, and pricing tiers for Limestone Calcined Clay Cement (LC3) satisfy our secondary supplier criteria for Pune. We are prepared to formalize sample trial documentation."
+      },
+      {
+        "turn_index": 9,
+        "turn_label": "Turn #10",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:37:03.116565Z",
+        "content": "Alternative sourcing qualification dialogue complete for Limestone Calcined Clay Cement (LC3) (1,200 METRIC TONNE) serving Pune. Technical specifications, declared capacity (2,500 METRIC TONNE / month), and sample trial protocols established. Handing over directly to Maahi Sharma and Mahajan Sanjana to coordinate trial batch delivery and technical audit. Delegates can formalize next steps using the Draft Proposal tab. Best regards!"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "case_number": 6,
+    "title": "Feedstock / Raw Material Sourcing (Strategic Feedstock Partnership)",
+    "inquiry_type": "SOURCING_PARTNERSHIP",
+    "initiator": {
+      "username": "maahi",
+      "company": "Maahi Decarb Materials Pvt Ltd"
+    },
+    "target": {
+      "username": "vikram",
+      "company": "Deccan Clinker & Mineral Feedstocks Ltd"
+    },
+    "context": "A cement grinding and decarb material plant (Maahi Decarb Materials Pvt Ltd) sources 2,000 MT of cement clinker intermediate from an upstream mineral supplier under an annual partnership.",
+    "what_is_testing": "Tests raw material feedstock sourcing, monthly allocation schedule coordination, declared accreditations (IS 16415, ISO 9001:2015, NABL Lab Certified), Ex Works quote, and quarterly SLA reviews.",
+    "business_context": {
+      "inquiry_type": "SOURCING_PARTNERSHIP",
+      "product_name": "Cement Clinker Intermediate",
+      "product_code": "CEMENT_CLINKER",
+      "quantity": 2000.0,
+      "unit": "METRIC_TONNE",
+      "delivery_location": "Pune",
+      "timeline_days": 30,
+      "urgency": "PLANNED",
+      "is_budget_public": false,
+      "inquiry_notes": "Exploring long-term clinker supply agreements and annual feedstock quota arrangements."
+    },
+    "conversation_id": "55ace879-f95a-4ff8-8d13-1326ee4257cb",
+    "total_turns": 10,
+    "transcript": [
+      {
+        "turn_index": 0,
+        "turn_label": "Turn #1",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:37:12.246354Z",
+        "content": "Hello Vikram Singhania, I am representing Maahi Sharma (Maahi Decarb Materials Pvt Ltd). we are exploring strategic feedstock and raw material sourcing partnerships for Cement Clinker Intermediate (2,000 METRIC TONNE). Could your representative outline bulk production availability, supply contracts, and dispatch logistics for Pune?"
+      },
+      {
+        "turn_index": 1,
+        "turn_label": "Turn #2",
+        "speaker": "Deccan Clinker & Mineral Feedstocks Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:37:18.353499Z",
+        "content": "Hello Maahi Sharma, representing Vikram Singhania at Deccan Clinker & Mineral Feedstocks Ltd. we welcome strategic sourcing discussions for Cement Clinker Intermediate. Our operating capacity is 5,000 METRIC TONNE / month across Pune, Mumbai, Nagpur, with standard mobilization readiness within 7 days. We provide standard manufacturer test certificates (MTC) and batch compliance reports with every dispatch. Declared quality and safety accreditations include: IS 16415, ISO 9001:2015, NABL Lab Certified. Our current indicative price range is \u20b93,200 - \u20b93,399 / METRIC TONNE (Ex Works)."
+      },
+      {
+        "turn_index": 2,
+        "turn_label": "Turn #3",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:37:24.441940Z",
+        "content": "Thank you for confirming operating capacity and accredited compliance. For our feedstock supply planning, could you clarify minimum order commitments (MOQ), monthly allocation schedules, and bulk freight coordination terms for Pune?"
+      },
+      {
+        "turn_index": 3,
+        "turn_label": "Turn #4",
+        "speaker": "Deccan Clinker & Mineral Feedstocks Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:37:30.524413Z",
+        "content": "Our standard minimum order quantity (MOQ) is 500 METRIC TONNE per batch. Dispatches operate on an Ex Works basis with scheduled monthly volume allocations and dedicated loading turnaround. Long-term sourcing partnerships can be governed under quarterly price review mechanisms and dedicated dispatch SLAs."
+      },
+      {
+        "turn_index": 4,
+        "turn_label": "Turn #5",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:37:36.627741Z",
+        "content": "Regarding continuous raw material supply to Pune: Can your plant guarantee dedicated monthly silo capacity and establish buffer inventory stock to prevent feedstock disruption during seasonal peak demand?"
+      },
+      {
+        "turn_index": 5,
+        "turn_label": "Turn #6",
+        "speaker": "Deccan Clinker & Mineral Feedstocks Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:37:42.722756Z",
+        "content": "Yes, under a formal Strategic Sourcing Partnership, we ring-fence dedicated silo storage capacity at our production facility and maintain a minimum 10-day operational buffer stock earmarked exclusively for your account."
+      },
+      {
+        "turn_index": 6,
+        "turn_label": "Turn #7",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:37:48.820892Z",
+        "content": "Dedicated buffer stocking addresses our supply security requirements. Could you also outline the governance mechanism for quarterly raw material price indexing and shared logistics optimization?"
+      },
+      {
+        "turn_index": 7,
+        "turn_label": "Turn #8",
+        "speaker": "Deccan Clinker & Mineral Feedstocks Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:37:54.917961Z",
+        "content": "Pricing can be structured around published mineral index formulas with quarterly recalibrations. Additionally, coordinated rail rake loading and back-haul fleet optimization can be jointly managed to minimize per-tonne freight expense."
+      },
+      {
+        "turn_index": 8,
+        "turn_label": "Turn #9",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:38:01.005865Z",
+        "content": "Long-term feedstock allocation terms, quarterly price indexing, and quality governance for Cement Clinker Intermediate are mutually aligned. We are ready to draft the Master Supply Agreement."
+      },
+      {
+        "turn_index": 9,
+        "turn_label": "Turn #10",
+        "speaker": "Deccan Clinker & Mineral Feedstocks Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:38:07.100994Z",
+        "content": "Strategic sourcing partnership dialogue complete for Cement Clinker Intermediate (2,000 METRIC TONNE). Run-rate capacity (5,000 METRIC TONNE / month) and commercial framework established. Handing over directly to Vikram Singhania and Maahi Sharma to execute the Master Supply Agreement (MSA) and initial purchase schedule. Delegates can formalize next steps using the Draft Proposal tab. Best regards!"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "case_number": 7,
+    "title": "Distributor Looking for Manufacturers (Distributor Application)",
+    "inquiry_type": "DISTRIBUTOR_APPLICATION",
+    "initiator": {
+      "username": "rohit",
+      "company": "Apex Building Materials & Regional Distribution Ltd"
+    },
+    "target": {
+      "username": "maahi",
+      "company": "Maahi Decarb Materials Pvt Ltd"
+    },
+    "context": "An established regional distributor (Apex Building Materials) seeks authorized distributorship and stockist rights for LC3 cement across Western Maharashtra.",
+    "what_is_testing": "Tests regional distributor application, dynamic extraction of distributor's 60,000 sq ft warehousing and 220 active dealer network, authorized wholesale pricing, and monthly minimum off-take tiers.",
+    "business_context": {
+      "inquiry_type": "DISTRIBUTOR_APPLICATION",
+      "product_name": "Limestone Calcined Clay Cement (LC3)",
+      "product_code": "CALCINED_CLAY_LC3",
+      "grade_code": "LC3_50_STANDARD",
+      "quantity": 1500.0,
+      "unit": "METRIC_TONNE",
+      "delivery_location": "Pune",
+      "timeline_days": 30,
+      "urgency": "PLANNED",
+      "is_budget_public": false,
+      "inquiry_notes": "Applying for authorized stockist rights across Pune, Satara, Solapur, and Western Maharashtra."
+    },
+    "conversation_id": "279ac6c1-9dbd-495e-af95-588eea9b6daf",
+    "total_turns": 10,
+    "transcript": [
+      {
+        "turn_index": 0,
+        "turn_label": "Turn #1",
+        "speaker": "Apex Building Materials & Regional Distribution Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:38:15.198822Z",
+        "content": "Hello Maahi Sharma, I am representing Rohit Mehta (Apex Building Materials & Regional Distribution Ltd). as an established regional distributor with active coverage across Pune, Satara, Solapur, Kolhapur, Western Maharashtra, we are seeking authorized distributorship / stockist rights for Limestone Calcined Clay Cement (LC3) in Pune. Could your representative outline factory production run-rates, authorized distributor pricing, and minimum monthly off-take requirements?"
+      },
+      {
+        "turn_index": 1,
+        "turn_label": "Turn #2",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:38:21.312284Z",
+        "content": "Hello Rohit Mehta, representing Maahi Sharma at Maahi Decarb Materials Pvt Ltd. we welcome authorized regional distribution inquiries for Limestone Calcined Clay Cement (LC3). Our declared production capacity is 2,500 METRIC TONNE / month across Pune, Mumbai, Nashik, with standard mobilization readiness within 5 days. We provide standard manufacturer test certificates (MTC) and batch compliance reports with every dispatch. Our current indicative price range is \u20b94,900 - \u20b95,100 / METRIC TONNE (Ex Works)."
+      },
+      {
+        "turn_index": 2,
+        "turn_label": "Turn #3",
+        "speaker": "Apex Building Materials & Regional Distribution Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:38:27.402121Z",
+        "content": "Thank you for confirming manufacturing capacity and supply terms. Our distribution infrastructure provides 60,000 sq ft warehousing capacity and a network of 220 active retail dealers across Pune, Satara, Solapur, Kolhapur, Western Maharashtra. Could your commercial team clarify territorial exclusivity provisions, distributor margin structures, and credit window terms for Pune?"
+      },
+      {
+        "turn_index": 3,
+        "turn_label": "Turn #4",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:38:33.493876Z",
+        "content": "Regional distributorship agreements are structured with quarterly volume off-take tiers, dedicated plant dispatch slots, and cooperative marketing support. Assigned territorial exclusivity and distributor margins are finalized following commercial evaluation."
+      },
+      {
+        "turn_index": 4,
+        "turn_label": "Turn #5",
+        "speaker": "Apex Building Materials & Regional Distribution Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:38:39.620537Z",
+        "content": "Regarding retail channel rollout in Pune: What are your standard product promotional support policies, point-of-sale technical literature, and warranty replacement turnaround timelines for retail customers?"
+      },
+      {
+        "turn_index": 5,
+        "turn_label": "Turn #6",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:38:45.714750Z",
+        "content": "We provide full cooperative marketing collateral, factory certified technical sales seminars for your dealer network, and immediate 24-hour stock replacement for any transit damaged or non-conforming packaging."
+      },
+      {
+        "turn_index": 6,
+        "turn_label": "Turn #7",
+        "speaker": "Apex Building Materials & Regional Distribution Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:38:51.799202Z",
+        "content": "That marketing and technical backing provides strong assurance for our retail network. Please confirm standard monthly volume benchmarks and wholesale payment terms (such as 30-day revolving credit) to finalize our application."
+      },
+      {
+        "turn_index": 7,
+        "turn_label": "Turn #8",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:38:57.897832Z",
+        "content": "Standard regional stockist terms include 30-day approved commercial credit windows with performance-based quarterly volume rebates for exceeding off-take targets in Pune."
+      },
+      {
+        "turn_index": 8,
+        "turn_label": "Turn #9",
+        "speaker": "Apex Building Materials & Regional Distribution Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:39:03.999910Z",
+        "content": "Warehousing commitments, dealer reach, and wholesale pricing terms for Limestone Calcined Clay Cement (LC3) are mutually aligned. We are prepared to execute the Regional Distributorship Agreement."
+      },
+      {
+        "turn_index": 9,
+        "turn_label": "Turn #10",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:39:10.101992Z",
+        "content": "Authorized distributorship evaluation dialogue complete for Limestone Calcined Clay Cement (LC3) in Pune. Production supply capacity and regional channel reach established. Handing over directly to Maahi Sharma and Rohit Mehta to finalize the Regional Distributorship Agreement and territorial allocation. Delegates can formalize next steps using the Draft Proposal tab. Best regards!"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "case_number": 8,
+    "title": "Manufacturer Expanding Distribution Network (Distribution Expansion)",
+    "inquiry_type": "DISTRIBUTION_EXPANSION",
+    "initiator": {
+      "username": "maahi",
+      "company": "Maahi Decarb Materials Pvt Ltd"
+    },
+    "target": {
+      "username": "rohit",
+      "company": "Apex Building Materials & Regional Distribution Ltd"
+    },
+    "context": "A cement manufacturer proactively seeks qualified regional distributors to expand retail market footprint across Western Maharashtra.",
+    "what_is_testing": "Tests manufacturer distribution expansion, directional extraction of target distributor's verified infrastructure (60,000 sq ft warehouse, 220 retail dealers), credit windows (30 days), and territorial exclusivity discussions.",
+    "business_context": {
+      "inquiry_type": "DISTRIBUTION_EXPANSION",
+      "product_name": "Limestone Calcined Clay Cement (LC3)",
+      "product_code": "CALCINED_CLAY_LC3",
+      "grade_code": "LC3_50_STANDARD",
+      "quantity": 1500.0,
+      "unit": "METRIC_TONNE",
+      "delivery_location": "Western Maharashtra",
+      "timeline_days": 30,
+      "urgency": "PLANNED",
+      "is_budget_public": false,
+      "inquiry_notes": "Seeking authorized stockist and regional channel distribution partners for Western Maharashtra."
+    },
+    "conversation_id": "38e1d996-33a2-4386-ac06-4c25c4b67ccb",
+    "total_turns": 10,
+    "transcript": [
+      {
+        "turn_index": 0,
+        "turn_label": "Turn #1",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:39:20.243489Z",
+        "content": "Hello Rohit Mehta, I am representing Maahi Sharma (Maahi Decarb Materials Pvt Ltd). we are exploring regional distribution expansion for Limestone Calcined Clay Cement (LC3) in Western Maharashtra. Could your representative confirm regional warehousing footprint, dealer network coverage, and open dealership tiers across Pune, Satara, Solapur, Kolhapur, Western Maharashtra?"
+      },
+      {
+        "turn_index": 1,
+        "turn_label": "Turn #2",
+        "speaker": "Apex Building Materials & Regional Distribution Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:39:26.318653Z",
+        "content": "Hello Maahi Sharma, representing Rohit Mehta at Apex Building Materials & Regional Distribution Ltd. we confirm active regional distribution channels across Pune, Satara, Solapur, Kolhapur, Western Maharashtra. Our infrastructure includes 60,000 sq ft warehousing capacity and an established network of 220 active retail dealer partnerships."
+      },
+      {
+        "turn_index": 2,
+        "turn_label": "Turn #3",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:39:32.402984Z",
+        "content": "Thank you for the regional overview. To evaluate commercial fit, what are your standard monthly volume benchmarks, territorial exclusivity provisions, and preferred dealer margin structures for Western Maharashtra?"
+      },
+      {
+        "turn_index": 3,
+        "turn_label": "Turn #4",
+        "speaker": "Apex Building Materials & Regional Distribution Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:39:38.493730Z",
+        "content": "Dealership terms are structured around quarterly volume commitments, standard 30-day credit windows, and regional marketing support. Minimum inventory commitments and margin ranges are customized based on assigned territorial scope."
+      },
+      {
+        "turn_index": 4,
+        "turn_label": "Turn #5",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:39:44.575906Z",
+        "content": "To plan regional supply logistics: Can your warehousing network in Pune, Satara, Solapur, Kolhapur, Western Maharashtra maintain dedicated inventory buffer stocks of Limestone Calcined Clay Cement (LC3) and manage secondary transport dispatches to tier-2 retail outlets?"
+      },
+      {
+        "turn_index": 5,
+        "turn_label": "Turn #6",
+        "speaker": "Apex Building Materials & Regional Distribution Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:39:50.659004Z",
+        "content": "Yes, our 60,000 sq ft facility maintains dedicated bays with integrated stock management. We operate dedicated secondary delivery fleets guaranteeing 48-hour delivery turnaround to all 220 active retail dealer counters."
+      },
+      {
+        "turn_index": 6,
+        "turn_label": "Turn #7",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:39:56.764329Z",
+        "content": "That operational turnaround matches our regional service standards. Could you share your expected quarterly volume off-take commitments and target launch dates for Western Maharashtra?"
+      },
+      {
+        "turn_index": 7,
+        "turn_label": "Turn #8",
+        "speaker": "Apex Building Materials & Regional Distribution Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:40:02.895506Z",
+        "content": "We target initial quarterly off-take of 1,500 METRIC TONNE with rollout commencing within standard commercial lead times of contract execution, supported by joint regional marketing promotions."
+      },
+      {
+        "turn_index": 8,
+        "turn_label": "Turn #9",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:40:08.994387Z",
+        "content": "Channel infrastructure, retail dealer coverage, and volume distribution benchmarks are verified. We are ready to formalize territorial distribution agreements for Western Maharashtra."
+      },
+      {
+        "turn_index": 9,
+        "turn_label": "Turn #10",
+        "speaker": "Apex Building Materials & Regional Distribution Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:40:15.084641Z",
+        "content": "Channel distribution introductory dialogue complete for Limestone Calcined Clay Cement (LC3) in Western Maharashtra. Regional reach and dealership framework established. Handing over directly to commercial leadership (Rohit Mehta and Maahi Sharma) to finalize territorial dealership agreements. Delegates can formalize next steps using the Draft Proposal tab. Best regards!"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "case_number": 9,
+    "title": "Buyer & Supplier Exploring Business Relationship (Exploratory Collaboration)",
+    "inquiry_type": "EXPLORATORY_COLLABORATION",
+    "initiator": {
+      "username": "sanjanamaahi",
+      "company": "InfraTech EPC Solutions Ltd"
+    },
+    "target": {
+      "username": "maahi",
+      "company": "Maahi Decarb Materials Pvt Ltd"
+    },
+    "context": "An infrastructure builder and green cement producer explore potential commercial synergies, technical data exchange, and long-term supply agreements.",
+    "what_is_testing": "Tests strategic exploratory collaboration, operational run-rate verification (2,500 MT/mo), phased collaboration frameworks (technical data exchange, trial batch testing), and C-level meeting coordination.",
+    "business_context": {
+      "inquiry_type": "EXPLORATORY_COLLABORATION",
+      "product_name": "Limestone Calcined Clay Cement (LC3)",
+      "product_code": "CALCINED_CLAY_LC3",
+      "grade_code": "LC3_50_STANDARD",
+      "quantity": 1000.0,
+      "unit": "METRIC_TONNE",
+      "delivery_location": "Western Maharashtra",
+      "timeline_days": 30,
+      "urgency": "PLANNED",
+      "is_budget_public": false,
+      "inquiry_notes": "Exploring sustainable cement blends and potential commercial supply partnership for Western Maharashtra pipeline."
+    },
+    "conversation_id": "dca320d8-d0ce-47fa-b222-4cd518c0d9eb",
+    "total_turns": 10,
+    "transcript": [
+      {
+        "turn_index": 0,
+        "turn_label": "Turn #1",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:40:21.281987Z",
+        "content": "Hello Maahi Sharma, I am representing Mahajan Sanjana (InfraTech EPC Solutions Ltd). we noted your organization's commercial scope in Pune, Mumbai, Nashik regarding Limestone Calcined Clay Cement (LC3). We are interested in exploring a potential business relationship, joint technical evaluation, and long-term supply synergies between our teams. Project requirement notes: 'Exploring sustainable cement blends and potential commercial supply partnership for Western Maharashtra pipeline.'."
+      },
+      {
+        "turn_index": 1,
+        "turn_label": "Turn #2",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:40:27.359697Z",
+        "content": "Hello Mahajan Sanjana, representing Maahi Sharma at Maahi Decarb Materials Pvt Ltd. we appreciate the introduction and welcome discussions around strategic business partnerships. Our operations span Pune, Mumbai, Nashik with declared capabilities in Limestone Calcined Clay Cement (LC3) and run-rate capacity of 2,500 METRIC TONNE / month. We provide standard manufacturer test certificates (MTC) and batch compliance reports with every dispatch. Our current indicative price range is \u20b94,900 - \u20b95,100 / METRIC TONNE (Ex Works)."
+      },
+      {
+        "turn_index": 2,
+        "turn_label": "Turn #3",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:40:33.441541Z",
+        "content": "Thank you for confirming operational readiness and accredited capability. We see strong long-term alignment for our project pipeline. To evaluate mutual synergy, could your commercial team outline typical partnership structures, pilot trial protocols, and collaboration roadmap priorities for Western Maharashtra?"
+      },
+      {
+        "turn_index": 3,
+        "turn_label": "Turn #4",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:40:39.523314Z",
+        "content": "We support phased collaboration frameworks including preliminary technical data exchange, trial batch testing, and scheduled quarterly commercial reviews. We can prepare a high-level briefing on our product specifications and production schedule to review joint opportunities."
+      },
+      {
+        "turn_index": 4,
+        "turn_label": "Turn #5",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:40:45.612159Z",
+        "content": "Regarding joint technical evaluation: Could we establish a mutual Non-Disclosure Agreement (NDA) and coordinate a preliminary technical data exchange session between our engineering teams next week?"
+      },
+      {
+        "turn_index": 5,
+        "turn_label": "Turn #6",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:40:51.687600Z",
+        "content": "We welcome that initiative. Our standard mutual NDA can be executed immediately, and our technical leads will prepare specification briefs and laboratory data sheets for the joint review."
+      },
+      {
+        "turn_index": 6,
+        "turn_label": "Turn #7",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:40:57.771125Z",
+        "content": "Excellent. Beyond technical evaluation, we see strong alignment on sustainability and decarbonization metrics. How do your products align with green rating certifications for Western Maharashtra projects?"
+      },
+      {
+        "turn_index": 7,
+        "turn_label": "Turn #8",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:41:03.856552Z",
+        "content": "Our manufacturing processes and product formulations are certified for green building compliance with verified carbon reduction documentation to support ESG reporting."
+      },
+      {
+        "turn_index": 8,
+        "turn_label": "Turn #9",
+        "speaker": "InfraTech EPC Solutions Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:41:09.937875Z",
+        "content": "Broad commercial synergies, mutual operational capabilities, and collaboration priorities for Limestone Calcined Clay Cement (LC3) are aligned. We are prepared to formalize strategic collaboration next steps."
+      },
+      {
+        "turn_index": 9,
+        "turn_label": "Turn #10",
+        "speaker": "Maahi Decarb Materials Pvt Ltd's Representative",
+        "sender_type": "AGENT",
+        "created_at": "2026-11-03T09:41:16.034759Z",
+        "content": "Preliminary business relationship dialogue complete for Limestone Calcined Clay Cement (LC3). High-level commercial and technical synergies identified between Maahi Decarb Materials Pvt Ltd and InfraTech EPC Solutions Ltd. Handing over directly to Maahi Sharma and Mahajan Sanjana to coordinate direct meetings and explore strategic collaboration next steps. Delegates can formalize next steps using the Draft Proposal tab. Best regards!"
+      }
+    ],
+    "passed": true
+  }
+]

@@ -1,0 +1,386 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  /* Accessible focus indicators */
+  :focus-visible {
+    outline: 2px solid theme('colors.brass.DEFAULT');
+    outline-offset: 2px;
+  }
+}
+
+/* Subtle hairline editorial card styles */
+.editorial-card {
+  background-color: theme('colors.canvas.surface');
+  border: 1px solid theme('colors.canvas.border');
+  box-shadow: 0 1px 2px 0 rgba(28, 25, 23, 0.04);
+}
+
+.editorial-card-hover {
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.editorial-card-hover:hover {
+  border-color: theme('colors.brass.DEFAULT');
+  box-shadow: 0 4px 12px 0 rgba(180, 120, 52, 0.08);
+}
+
+/* ============================================================================
+ * 3D Page Turn Animation Engine (FlipHTML5-Inspired Presets)
+ * ============================================================================ */
+
+/* 1. Classic 3D Book Curl (FlipHTML5 Style) - Leaf Swing & Page Settle */
+@keyframes leafSwingNext {
+  0% {
+    transform: perspective(2200px) rotateY(0deg);
+    opacity: 1;
+  }
+  45% {
+    transform: perspective(2200px) rotateY(-95deg) scaleY(1.02);
+    opacity: 0.96;
+  }
+  100% {
+    transform: perspective(2200px) rotateY(-180deg);
+    opacity: 0;
+  }
+}
+
+@keyframes leafSwingPrev {
+  0% {
+    transform: perspective(2200px) rotateY(-180deg);
+    opacity: 1;
+  }
+  55% {
+    transform: perspective(2200px) rotateY(-85deg) scaleY(1.02);
+    opacity: 0.96;
+  }
+  100% {
+    transform: perspective(2200px) rotateY(0deg);
+    opacity: 0;
+  }
+}
+
+@keyframes leafSingleCurlNext {
+  0% {
+    transform: perspective(2000px) rotateY(0deg) skewY(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: perspective(2000px) rotateY(-68deg) skewY(-3deg) scale(0.98);
+    opacity: 0.72;
+  }
+  100% {
+    transform: perspective(2000px) rotateY(-120deg) skewY(-5deg);
+    opacity: 0;
+  }
+}
+
+@keyframes leafSingleCurlPrev {
+  0% {
+    transform: perspective(2000px) rotateY(-110deg) skewY(4deg);
+    opacity: 0.85;
+  }
+  50% {
+    transform: perspective(2000px) rotateY(-45deg) skewY(2deg) scale(0.99);
+    opacity: 0.95;
+  }
+  100% {
+    transform: perspective(2000px) rotateY(0deg) skewY(0deg);
+    opacity: 0;
+  }
+}
+
+@keyframes pageRevealNext {
+  0% {
+    transform: perspective(2000px) rotateY(8deg) scale(0.985);
+    filter: brightness(0.9);
+  }
+  100% {
+    transform: perspective(2000px) rotateY(0deg) scale(1);
+    filter: brightness(1);
+  }
+}
+
+@keyframes pageRevealPrev {
+  0% {
+    transform: perspective(2000px) rotateY(-8deg) scale(0.985);
+    filter: brightness(0.9);
+  }
+  100% {
+    transform: perspective(2000px) rotateY(0deg) scale(1);
+    filter: brightness(1);
+  }
+}
+
+/* 2. Heavy Hardcover Book Turn */
+@keyframes hardcoverLeafNext {
+  0% {
+    transform: perspective(1800px) rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+  40% {
+    transform: perspective(1800px) rotateY(-78deg) scale(1.03);
+    opacity: 0.98;
+  }
+  100% {
+    transform: perspective(1800px) rotateY(-180deg) scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes hardcoverLeafPrev {
+  0% {
+    transform: perspective(1800px) rotateY(-180deg) scale(1);
+    opacity: 1;
+  }
+  60% {
+    transform: perspective(1800px) rotateY(-102deg) scale(1.03);
+    opacity: 0.98;
+  }
+  100% {
+    transform: perspective(1800px) rotateY(0deg) scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes hardcoverStageImpact {
+  0% { transform: scale(0.985); }
+  55% { transform: scale(1.008); }
+  80% { transform: scale(0.996); }
+  100% { transform: scale(1); }
+}
+
+/* 3. Glossy Magazine Glide + Specular Sheen Sweep */
+@keyframes glossySheenSweep {
+  0% {
+    transform: translateX(-110%) skewX(-18deg);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.85;
+  }
+  100% {
+    transform: translateX(130%) skewX(-18deg);
+    opacity: 0;
+  }
+}
+
+@keyframes glossyTurnNext {
+  0% {
+    transform: perspective(2200px) translateX(22px) rotateY(-18deg) skewY(-1.5deg);
+    opacity: 0.65;
+  }
+  100% {
+    transform: perspective(2200px) translateX(0) rotateY(0deg) skewY(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes glossyTurnPrev {
+  0% {
+    transform: perspective(2200px) translateX(-22px) rotateY(18deg) skewY(1.5deg);
+    opacity: 0.65;
+  }
+  100% {
+    transform: perspective(2200px) translateX(0) rotateY(0deg) skewY(0deg);
+    opacity: 1;
+  }
+}
+
+/* 4. Digital Horizon Flip (Futuristic Glow + Depth Flip) */
+@keyframes digitalFlipNext {
+  0% {
+    transform: perspective(1800px) translateZ(-40px) rotateY(22deg) scale(0.94);
+    opacity: 0.35;
+    filter: brightness(1.25);
+  }
+  55% {
+    transform: perspective(1800px) translateZ(15px) rotateY(-4deg) scale(1.01);
+    opacity: 1;
+    filter: brightness(1.06);
+  }
+  100% {
+    transform: perspective(1800px) translateZ(0) rotateY(0deg) scale(1);
+    opacity: 1;
+    filter: brightness(1);
+  }
+}
+
+@keyframes digitalFlipPrev {
+  0% {
+    transform: perspective(1800px) translateZ(-40px) rotateY(-22deg) scale(0.94);
+    opacity: 0.35;
+    filter: brightness(1.25);
+  }
+  55% {
+    transform: perspective(1800px) translateZ(15px) rotateY(4deg) scale(1.01);
+    opacity: 1;
+    filter: brightness(1.06);
+  }
+  100% {
+    transform: perspective(1800px) translateZ(0) rotateY(0deg) scale(1);
+    opacity: 1;
+    filter: brightness(1);
+  }
+}
+
+/* 5. Tactile Card Stack Snap */
+@keyframes cardSnapNext {
+  0% {
+    transform: perspective(1600px) rotateX(4deg) rotateY(-28deg) translateX(28px) scale(0.95);
+    opacity: 0.5;
+  }
+  65% {
+    transform: perspective(1600px) rotateX(0deg) rotateY(4deg) translateX(-4px) scale(1.015);
+    opacity: 1;
+  }
+  100% {
+    transform: perspective(1600px) rotateX(0deg) rotateY(0deg) translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes cardSnapPrev {
+  0% {
+    transform: perspective(1600px) rotateX(4deg) rotateY(28deg) translateX(-28px) scale(0.95);
+    opacity: 0.5;
+  }
+  65% {
+    transform: perspective(1600px) rotateX(0deg) rotateY(-4deg) translateX(4px) scale(1.015);
+    opacity: 1;
+  }
+  100% {
+    transform: perspective(1600px) rotateX(0deg) rotateY(0deg) translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+/* 6. Instant Minimal Fade */
+@keyframes instantFade {
+  0% { opacity: 0.6; }
+  100% { opacity: 1; }
+}
+
+.animate-leaf-swing-next {
+  animation: leafSwingNext 0.52s cubic-bezier(0.32, 0.08, 0.24, 1) forwards;
+}
+.animate-leaf-swing-prev {
+  animation: leafSwingPrev 0.52s cubic-bezier(0.32, 0.08, 0.24, 1) forwards;
+}
+.animate-leaf-single-next {
+  animation: leafSingleCurlNext 0.48s cubic-bezier(0.32, 0.08, 0.24, 1) forwards;
+}
+.animate-leaf-single-prev {
+  animation: leafSingleCurlPrev 0.48s cubic-bezier(0.32, 0.08, 0.24, 1) forwards;
+}
+.animate-hardcover-leaf-next {
+  animation: hardcoverLeafNext 0.62s cubic-bezier(0.22, 0.12, 0.18, 1) forwards;
+}
+.animate-hardcover-leaf-prev {
+  animation: hardcoverLeafPrev 0.62s cubic-bezier(0.22, 0.12, 0.18, 1) forwards;
+}
+.animate-hardcover-impact {
+  animation: hardcoverStageImpact 0.58s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.animate-glossy-sheen {
+  animation: glossySheenSweep 0.44s ease-out forwards;
+}
+
+.animate-flip-curl-next {
+  animation: pageRevealNext 0.48s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.animate-flip-curl-prev {
+  animation: pageRevealPrev 0.48s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.animate-flip-glossy-next {
+  animation: glossyTurnNext 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.animate-flip-glossy-prev {
+  animation: glossyTurnPrev 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.animate-flip-digital-next {
+  animation: digitalFlipNext 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.animate-flip-digital-prev {
+  animation: digitalFlipPrev 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.animate-flip-card-next {
+  animation: cardSnapNext 0.36s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.animate-flip-card-prev {
+  animation: cardSnapPrev 0.36s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.animate-flip-fade {
+  animation: instantFade 0.18s ease-out;
+}
+
+/* Legacy fallback classes */
+.animate-flip-next {
+  animation: pageRevealNext 0.42s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.animate-flip-prev {
+  animation: pageRevealPrev 0.42s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Realistic Corner Curl flipbook sheet polish */
+.stf__parent {
+  user-select: none;
+  -webkit-user-select: none;
+}
+.stf-brochure-sheet {
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.52);
+  cursor: grab;
+}
+.stf-brochure-sheet:active {
+  cursor: grabbing;
+}
+/* Soft cylindrical spine binding shadow strictly during open 2-page spread */
+[data-spread-open='true'] .stf__item.--left::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.22) 0%,
+    rgba(0, 0, 0, 0.08) 12px,
+    rgba(0, 0, 0, 0) 30px
+  );
+}
+[data-spread-open='true'] .stf__item.--right::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.22) 0%,
+    rgba(0, 0, 0, 0.08) 12px,
+    rgba(0, 0, 0, 0) 30px
+  );
+}
+
+/* Print page break */
+@media print {
+  @page {
+    margin: 1cm;
+    size: auto;
+  }
+  html, body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+  .page-break-after {
+    page-break-after: always;
+    break-after: page;
+  }
+}
